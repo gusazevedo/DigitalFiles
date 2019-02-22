@@ -11,13 +11,47 @@
     <title>AVA</title>
 </head>
 <body>
+    <!-- Inicio do menu mobile -->
+    <nav class="navbar navabar-expand-lg navbar-light bg-light d-flex d-md-none">
+        <a class="navbar-brand" href="#">Capítulos</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"  aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Apresentação</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">1. Mediar a Leitura: exercício de si e do outro</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">2. As Dimensões Dialógicas da Mediação da Leitura</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">3. Formando os Formadores: afinal, o que é ser um "mediador de leitura"?</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">4. A Mediação da Leitura na Prática</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Fim do menu mobile -->
+
+    <!-- Banner -->
     <img src="img/mediadores.png" class="img-fluid" alt="Responsive image">
-    <div class="alert alert-primary" role="alert">
+
+    <!-- Separador de conteúdo -->
+    <div class="p-3 bg-light">
       <strong>MÓDULO 1 | Mediação da Leitura e Formação do Leitor</strong>
     </div>
 
     <div class="row m-2">
-        <div class="col-3">
+    <!-- Inicio do menu desktop -->
+        <div class="col-3 d-none d-md-block">
             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 
                 <a class="nav-link active" id="aba_1" data-toggle="pill" href="#v-pills-1" role="tab">
@@ -37,7 +71,9 @@
 
             </div>
         </div>
-        <div class="col-9">
+        <!-- Fim do menu desktop -->
+
+        <div class="col-12 col-md-9">
             <div class="tab-content" id="v-pills-tabContent">
                 <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel">
                     <h2>APRESENTAÇÃO</h2>
@@ -88,6 +124,8 @@
                         <li>A acessibilidade da leitura;</li>
                         <li>A existência de acervos atrativos que gerem o interesse do público.</li>
                     </ul>
+                    <p>O que nos leva a ler? A leitura na forma como é vista atualmente constitui-se em um ato libertador e emancipatório. Lemos por diferentes motivos, entretanto, o que mais deve aguçar o interesse do leitor é o desejo de ler o que a ele interessa, de modo a gerar desejo no conhecimento obtido. “Ler é, pois, interrogar as palavras, duvidar delas, ampliá-las. Deste contato, desta troca, nasce o prazer de conhecer, de imaginar, de inventar a vida.” (YUNES, Eliana, 1995, p.188)</p>
+                    <p>O(A) mediador(a), ao preparar práticas leitoras, deve reconhecer a priori os objetivos que deseja alcançar, assim como ao escolher possibilidades de leitura como livros, gêneros textuais, temáticas e material de apoio para ampliar o diálogo, tendo conhecimento prévio do público a que se destina e de suas competências leitoras.</p>
                 </div>
             </div>
         </div>
@@ -99,6 +137,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 <footer style="background-color: #222; color: #fff;" class="footer container-fluid py-5">
-    <div class="text-center text-secundary">© Gustavo Azevedo - All rights reserved to Jobest</div>    
+    <div class="text-center text-secundary">© Gustavo Azevedo - All rights reserved to Gustavo</div>    
 </footer>
 </html>
