@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fasciculo.css">
 
     <title>AVA</title>
 </head>
@@ -55,10 +55,11 @@
     <img src="img/banner.png" class="img-fluid" alt="Responsive image">
 
     <!-- Separador de conteúdo -->
-    <div class="p-3 bg-light">
-      <strong>MÓDULO 1 | Mediação da Leitura e Formação do Leitor</strong>
-    </div>
-
+    <section id="main-content">
+        <div class="p-3 bg-light">
+            <strong>MÓDULO 1 | Mediação da Leitura e Formação do Leitor</strong>
+        </div>
+    
     <div class="row m-2">
     <!-- Inicio do menu desktop -->
         <div class="col-3 d-none d-md-block">
@@ -235,7 +236,7 @@
                 </div>
                 <div class="tab-pane fade" id="v-pills-7" role="tabpanel">
                     <h2 class="border-bottom pb-2">6. Referências</h2>
-                    <img src="img/figura-16.png" class="col-sm mx-auto d-block col-md-float-right" width="35%">
+                    <img src="img/figura-16.png" class="col-sm-12 mx-auto d-block col-md-3 float-right">
                     <p>CALVINO, Italo. <strong>Se um viajante numa noite de inverno</strong>. São Paulo: Companhia das letras, 1999.</p>
                     <p>FAILLA, Zoara. <strong>Retratos de leitura no Brasil 4</strong>. Rio de Janeiro: Sextante, 2016. Disponível em: http://prolivro. org.br/home/images/2016/RetratosDaLeitura2016_ LIVRO_EM_PDF_FINAL_COM_CAPA.pdf</p>
                     <p>FREIRE, Paulo. <strong>A Importância do Ato de Ler: em três artigos que se completam</strong>. São Paulo: Cortez, 1989.</p>
@@ -256,6 +257,7 @@
             </div>
         </div>
     </div>
+    </section>
 
     <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -284,9 +286,9 @@
 
         $('#aba_1').tab('show');
     </script> 
-
-</body>
 <footer style="background-color: #222; color: #fff;" class="footer container-fluid py-5">
     <div class="text-center text-secundary">© Gustavo Azevedo - All rights reserved to Gustavo</div>    
 </footer>
+
+</body>
 </html>
