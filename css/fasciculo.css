@@ -30,13 +30,14 @@
 	padding: 8px 8px;
 }
 
-.imagem-esquerda img{
-	float: left;
-    margin-right: 20px;
-	margin-left: 20px;
+.flex-column{
+	border: solid;
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #6950a1;
 }
-.imagem-direita img{
-	float: right;
-    margin-left: 20px;
-	padding-right: 20px;
+
+.separador{
+	background: #F3F3F3;
 }
