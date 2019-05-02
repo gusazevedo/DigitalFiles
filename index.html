@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -7,19 +8,21 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" type="text/css" href="css/fasciculo.css">
-
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
     <title>AVA</title>
 </head>
+
 <body>
     <!-- Menu mobile -->
-        <nav class="navbar navabar-expand-lg navbar-light bg-light d-flex d-md-none">
+    <nav class="navbar navabar-expand-lg navbar-light bg-light d-flex d-md-none">
         <a class="navbar-brand" href="#">Capítulos</a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"  aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">            
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                 <a class="nav-link" id="aba_1_m" data-toggle="pill" href="#v-pills-1" role="tab">
                 Apresentação</a>
@@ -28,7 +31,7 @@
                 <a class="nav-link" id="aba_3_m" data-toggle="pill" href="#v-pills-3" role="tab">
                 2. As Dimensões Dialógicas da Mediação da Leitura</a>
                 <a class="nav-link" id="aba_4_m" data-toggle="pill" href="#v-pills-4" role="tab">
-                3. Formando os Formadores: afinal, o que é ser um "mediador de leitura"?</a>
+                3. Formando os Formadores: afinal, o que é ser um"mediador de leitura"?</a>
                 <a class="nav-link" id="aba_5_m" data-toggle="pill" href="#v-pills-5" role="tab">
                 4. A Mediação da Leitura na Prática</a>
                 <a class="nav-link" id="aba_6_m" data-toggle="pill" href="#v-pills-6" role="tab">
@@ -49,9 +52,27 @@
     <section class="topo">
 
         <div class="p-3 separador">
-            <strong>MÓDULO 1 | Mediação da Leitura e Formação do Leitor</strong>
+            <ul class="list-inline mb-0">
+                <li class="list-inline-item"><strong>MÓDULO 1 | Mediação da Leitura e Formação do Leitor</strong></li>
+                <li class="list-inline-item float-right d-none d-md-block">
+                    <button class="fonte-diminuir btn btn-sm" style="background-color:transparent;"><i title="Diminuir fonte" class="fas fa-minus"></i></button>
+                </li>
+                <li class=" list-inline-item float-right d-none d-md-block">
+                    <button class="fonte-normal btn btn-sm" style="background-color:transparent;"><i title="Fonte Normal" class="fas fa-font"></i></button>
+                </li>
+                <li class="list-inline-item float-right d-none d-md-block">
+                    <p class="float-left"><strong>Controle das fontes:</strong></p>
+                    <button class="fonte-aumentar btn btn-sm" style="background-color:transparent;"><i title="Aumentar fonte" class="fas fa-plus"></i></button>
+                </li>
+                <li class="list-inline-item float-right d-none d-md-block">
+                    <p class="float-left"><strong>Contraste:</strong></p>
+                    <button class="contraste btn btn-sm" style="background-color:transparent;"><i class="fas fa-adjust"></i></button>
+                </li>
+                <li class="list-inline-item float-right d-none d-md-block"></li>
+            </ul>
         </div>
 
+        <br>
         <div class="row m-2">
             <!-- Inicio do menu desktop -->
             <div class="col-3 d-none d-md-block">
@@ -63,7 +84,7 @@
                     <a class="nav-link" id="aba_3" data-toggle="pill" href="#v-pills-3" role="tab">
                     2. As Dimensões Dialógicas da Mediação da Leitura</a>
                     <a class="nav-link" id="aba_4" data-toggle="pill" href="#v-pills-4" role="tab">
-                    3. Formando os Formadores: afinal, o que é ser um "mediador de leitura"?</a>
+                    3. Formando os Formadores: afinal, o que é ser um"mediador de leitura"?</a>
                     <a class="nav-link" id="aba_5" data-toggle="pill" href="#v-pills-5" role="tab">
                     4. A Mediação da Leitura na Prática</a>
                     <a class="nav-link" id="aba_6" data-toggle="pill" href="#v-pills-6" role="tab">
@@ -79,16 +100,18 @@
             <div class="col-12 col-md-9">
                 <div class="tab-content" id="v-pills-tabContent">
                     <!-- Inicio da aba 1 -->
-                    <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel">
-                        <h2 class=" border-bottom pb-2">APRESENTAÇÃO</h2>
+                    <div class="aba tab-pane fade show active" id="v-pills-1" role="tabpanel">
+                        <h2 class="border-bottom pb-2">APRESENTAÇÃO</h2>
                         <p>O conteúdo deste fascículo é introdutório ao curso <strong>Formação de mediadores de leitura</strong> e transita entre os conceitos de <strong>mediação da leitura</strong> e às práticas advindas desses que levam à <strong>formação do leitor.</strong></p>
                         <p>A leitura está presente em nossas vidas, no cotidiano, desde as situações mais habituais, como tomar um ônibus observando o seu itinerário, preparar uma receita de bolo de chocolate ou mesmo lendo uma bula de remédio, às mais complexas, a exemplo das pesquisas científi cas e terminológicas, leituras fi losófi cas etc.</p>
 
                         <div class="citacao-direita">
-                            <p>Ler é ir ao encontro de algo que está para <br>ser e ninguém sabe ainda o que será. <br><strong>ítalo Calvino</strong></p>
+                            <p>Ler é ir ao encontro de algo que está para
+                                <br>ser e ninguém sabe ainda o que será.
+                                <br><strong>ítalo Calvino</strong></p>
                         </div>
 
-                        <p>Podemos afirmar que a vida é mediada pela palavra, seja ela dita, vivida, narrada, contada, lida, cantada ou escrita. Vivemos a observar aquilo que está em nosso entorno, com o que interagimos, interrogamos, concordando ou discordando, a partir das condições de inserção no mundo social e cultural do qual fazemos parte.</p>
+                        <p><a data-toggle="tooltip" data-placement="top" title="Criação artística (teatral, literária, cinematográfica) em que o(a) autor(a) faz uma leitura particular e original da realidade; prosa literária construída a partir de elementos imaginários baseados na realidade e/ou de elementos da realidade inseridos em um contexto imaginário."><strong>Podemos</strong></a> afirmar que a vida é mediada pela palavra, seja ela dita, vivida, narrada, contada, lida, cantada ou escrita. Vivemos a observar aquilo que está em nosso entorno, com o que interagimos, interrogamos, concordando ou discordando, a partir das condições de inserção no mundo social e cultural do qual fazemos parte.</p>
                         <p>As possibilidades de leitura são amplas. Fazemos leituras de jornais, romances, poesias, músicas, revistas em quadrinhos, mensagens em redes sociais, lemos fotografias, imagens em movimento, obras de arte, esculturas, partituras, leituras técnicas ou escolares...</p>
                         <img src="img/figura-01.png" class="col-sm-12 mx-auto d-block col-md-6 float-left">
                         <p>Lemos por distração e lazer, para adquirir conhecimento, obter informação, para tomada de decisão. Fazemos leituras despretensiosas ou mesmo com objetivos definidos. A leitura, portanto, é <strong>um ato de simbolização e representação do mundo.</strong> O objetivo do nosso curso é, portanto, pensar a leitura em suas diferentes vertentes como práticas sociais de inserção no mundo por meio da mediação para a formação de leitores.</p>
@@ -98,11 +121,11 @@
                     </div>
                     <!-- Fim da aba 1 -->
                     <!-- Inicio da aba 2 -->
-                    <div class="tab-pane fade" id="v-pills-2" role="tabpanel">
+                    <div class="aba tab-pane fade" id="v-pills-2" role="tabpanel">
                         <h2 class=" border-bottom pb-2">1. MEDIAR A LEITURA: EXERCÍCIO DE SI E DO OUTRO</h2>
                         <p>Começamos aqui por relembrar a primeira questão apresentada anteriormente: <strong>De que depende o incentivo à leitura?</strong> Ao aprofundarmos essa reflexão, cabe-nos refletir sobre as condições que levam uma pessoa a se tornar leitora, especialmente em nosso contexto, diante da complexidade e diferenças existentes no Brasil. Você, por exemplo, se considera um(a) leitor(a)?</p>
                         <img src="img/figura-03.png" class="col-sm-12 mx-auto d-block col-md-4 mx-auto float-right">
-                        <p>Na pesquisa <span class="font-italic">Retratos da Leitura no Brasil</span>, realizada pelo Instituto Pró-Livro, de mapeamento do comportamento leitor dos brasileiros, em sua 4ª edição (2016), identificamos uma realidade que vale a pena uma reflexão. Sobre a pergunta referente a presença de uma pessoa que influenciou o gosto pela leitura dos pesquisados, os dados apresentados indicam que isso é mais marcante <strong>entre as crianças até 13 anos</strong>, ao revelarem a presença dos <strong>pais e professores como mediadores</strong>. Já para os entrevistados <strong>a partir de 25 anos</strong>, fica evidente a pequena presença de pessoas que tiveram ou têm efetiva participação nessa influência. Concluímos, assim, que é na infância, por meio da escola, da família ou na biblioteca onde aparecem as oportunidades de <strong>práticas e ações mediacionais</strong>, como as rodas de leitura, contação de história ou indicação de livros.</p> 
+                        <p>Na pesquisa <span class="font-italic">Retratos da Leitura no Brasil</span>, realizada pelo Instituto Pró-Livro, de mapeamento do comportamento leitor dos brasileiros, em sua 4ª edição (2016), identificamos uma realidade que vale a pena uma reflexão. Sobre a pergunta referente a presença de uma pessoa que influenciou o gosto pela leitura dos pesquisados, os dados apresentados indicam que isso é mais marcante <strong>entre as crianças até 13 anos</strong>, ao revelarem a presença dos <strong>pais e professores como mediadores</strong>. Já para os entrevistados <strong>a partir de 25 anos</strong>, fica evidente a pequena presença de pessoas que tiveram ou têm efetiva participação nessa influência. Concluímos, assim, que é na infância, por meio da escola, da família ou na biblioteca onde aparecem as oportunidades de <strong>práticas e ações mediacionais</strong>, como as rodas de leitura, contação de história ou indicação de livros.</p>
                         <p>Por outro lado, pensar a mediação da leitura para promover a formação de leitores deve levar em consideração os diferentes públicos e pessoas de diversas idades e níveis de alfabetização e letramento. <strong>O leitor se constrói ao longo da vida</strong>. Para tal, é necessário que se desenvolvam práticas leitoras educativas, críticas literárias e poéticas que tragam as memórias afetivas e que os indivíduos se reconheçam nessas leituras, evocando liberdade e autonomia. Quando revisitamos nossas memórias, é possível reconhecer que o que construímos criticamente em relação ao conhecimento que possuímos está envolto no que somos e naquilo que experimentamos ao longo da vida.</p>
                         <img src="img/figura-04.png" class="col-sm-12 mx-auto d-block col-md-4 mx-auto d-block">
                         <img src="img/figura-05.png" class="col-sm-12 mx-auto d-block col-md-4 mx-auto d-block float-right">
@@ -124,7 +147,7 @@
                     </div>
                     <!-- Fim da aba 2 -->
                     <!-- Inicio da aba 3 -->
-                    <div class="tab-pane fade" id="v-pills-3" role="tabpanel">
+                    <div class="aba tab-pane fade" id="v-pills-3" role="tabpanel">
                         <h2 class=" border-bottom pb-2">2. AS DIMENSÕES DIALÓGICAS DA MEDIAÇÃO DA LEITURA</h2>
                         <p>A mediação da leitura caracteriza-se pelas relações dialógicas entre os sujeitos, o texto mediado e o ato mediador. É um diálogo constituído de múltiplas vozes e narrativas, de natureza dinâmica, flexível e crítica. Em forma de diálogo, a mediação pode ocorrer em diferentes formatos para públicos diversos em ambiências como bibliotecas públicas, escolares e comunitárias, centros culturais, livrarias, museus e teatros, apenas alguns dos espaços tradicionais de promoção da leitura. Ou mesmo em locais improvisados ou públicos como varandas, calçadas, condomínios, garagens, praças e parques.</p>
                         <img src="img/figura-08.png" class="col-sm-12 mx-auto d-block col-md-6 float-left">
@@ -138,7 +161,7 @@
                     </div>
                     <!-- Fim da aba 3 -->
                     <!-- Inicio da aba 4 -->
-                    <div class="tab-pane fade" id="v-pills-4" role="tabpanel">
+                    <div class="aba tab-pane fade" id="v-pills-4" role="tabpanel">
                         <h2 class=" border-bottom pb-2">3. FORMANDO OS FORMADORES: AFINAL, O QUE É SER UM “MEDIADOR DE LEITURA”?</h2>
                         <p>Vamos refletir um pouco sobre a segunda questão apresentada no começo deste módulo: <strong>O que podem fazer os mediadores de leitura para contribuir na formação de leitores críticos?</strong> Aqui ousaríamos dizer que não há modelos para formar leitores ou para formar mediadores de leitura, pois os modelos certamente se esgotariam. O que nós queremos propor em nosso curso, é a possibilidade da mediação sensível que se constrói no cotidiano de professores, bibliotecários, pais, agentes de leitura e outros indivíduos que se dedicam a provocante missão de contribuir com o ato da leitura.</p>
                         <p>Quando nos referimos ao que chamamos aqui de <strong>formação do leitor</strong>, precisamos deixar claro tratar-se de uma ação educativa, e não de gerar formas ou moldes. Pensamos nas práticas dialógicas do ato de ler, do leitor como elemento principal dessa prática pedagógica, visto no seu todo como ser que pensa, age, reflete, analisa e decide. Estamos falando de uma ação de protagonismos, tanto do mediador quanto do leitor.</p>
@@ -146,17 +169,20 @@
                         <p>A leitura, se bem entendida, é sedutora, pois se alia às experiências do viver para além do tempo e do espaço. Isso explica, por exemplo, a atemporalidade e as paixões que despertam Dom Quixote de La Mancha, de Miguel de Cervantes, cuja primeira edição é datada do ano de 1605 e continua sendo uma das obras mais lidas da atualidade. Lembramos também de outra obra, <span class="font-italic">Romeu e Julieta</span>, tragédia amorosa datada do século XVI, de Willian Shakespeare, que já recebeu diversas adaptações para o cinema. Ou mesmo os contos de fadas e as fábulas que tanto encantam o universo infantil. Somente ressignificada, a leitura fará sentido e conquistará leitores, pois ela não existe isolada ou fora de contexto, sempre revelará outros textos e contextos, encontrando eco nas vozes plurais dos leitores.</p>
                         <p>Sobre o que caracteriza o <strong>mediador de leitura</strong>, temos algumas pistas:</p>
                         <img src="img/figura-10.png" class="col-sm-12 mx-auto d-block col-md-4 float-right">
-                        <p><strong>a)</strong> Inicialmente, deve tratar-se de um(a) leitor(a), alguém que gosta de ler. É um(a) leitor(a) crítico(a), cujas experiências são partilhadas no processo de interação com o outro; <br>
-                        <strong>b)</strong> Além da experiência de leitura, é necessário gostar de comunicar-se, de falar do que lê, compartilhar seus repertórios e afetividade; <br>
-                        <strong>c)</strong> Percebe na mediação a possibilidade de mudança a ser realizada no cotidiano das pessoas, de modo que compreendam o espaço que a leitura ocupa em suas vidas; <br>
-                        <strong>d)</strong> Compreende as diferentes fases pelas quais um leitor se constrói e se torna íntimo da leitura, sem exigências, deixando fluir, sem estabelecer juízos.</p>
+                        <p><strong>a)</strong> Inicialmente, deve tratar-se de um(a) leitor(a), alguém que gosta de ler. É um(a) leitor(a) crítico(a), cujas experiências são partilhadas no processo de interação com o outro;
+                            <br>
+                            <strong>b)</strong> Além da experiência de leitura, é necessário gostar de comunicar-se, de falar do que lê, compartilhar seus repertórios e afetividade;
+                            <br>
+                            <strong>c)</strong> Percebe na mediação a possibilidade de mudança a ser realizada no cotidiano das pessoas, de modo que compreendam o espaço que a leitura ocupa em suas vidas;
+                            <br>
+                            <strong>d)</strong> Compreende as diferentes fases pelas quais um leitor se constrói e se torna íntimo da leitura, sem exigências, deixando fluir, sem estabelecer juízos.</p>
                         <p>O texto, em suas diferentes formas e dimensões, com linguagens verbais ou não verbais, é mote para desvelar o ato vivido. Por isso, a leitura precisa ser atrativa, pois ela deve ser reconhecida e (re)siginificada no sentido mais amplo que esses termos possam ter. Com esse pensamento, podemos concluir que a leitura é uma prática social exercitada no cotidiano, da solidariedade, do compartilhamento ou mesmo em momentos de solidão como um direito do(a) leitor(a).</p>
                         <p>A <strong>mediação da leitura</strong>, portanto, é <strong>um ato de comunicação com o outro ou consigo mesmo</strong>, daí a necessidade de se ler criticamente para o <strong>exercício da cidadania</strong>.</p>
                         <p>O(A) mediador(a) deve ser, antes de tudo, um(a) leitor(a). Dessa forma, em uma mediação de leitura, é possível envolver os leitores pelo encantamento do ato de ler, de modo digno, verdadeiro e afetivo. Assim como declara Petit (2008), ao afirmar que <strong>a transmissão do amor pela leitura se dá pela experimentação desse amor</strong>. É comum leitores narrarem suas histórias de leitura a partir da presença de um mediador, sejam avós, pais, outros familiares, professores, contadores de histórias, entre outros que, de algum modo se tornaram figuras marcantes nesse processo de se construir enquanto leitores.</p>
                     </div>
                     <!-- Fim da aba 4 -->
                     <!-- Inicio da aba 5 -->
-                    <div class="tab-pane fade" id="v-pills-5" role="tabpanel">
+                    <div class="aba tab-pane fade" id="v-pills-5" role="tabpanel">
                         <h2 class="border-bottom pb-2">4. A MEDIAÇÃODA LEITURA NA PRÁTICA</h2>
                         <p>Após as reflexões realizadas no decorrer do fascículo, cremos que seja importante apresentar um pouco sobre a mediação na prática. Planejar e trilhar um caminho atraente para mediar a leitura e formar leitores é, sem dúvida, um desafio, tendo em vista que são muitas as possibilidades de leitura nos tempos atuais, inclusive em épocas de redes sociais e o poder de atração da internet. Entre os desafios, alguns queremos destacar:</p>
                         <ul>
@@ -168,23 +194,34 @@
                             <li>A acessibilidade da leitura;</li>
                             <li>A existência de acervos atrativos que gerem o interesse do público.</li>
                         </ul>
-                        <img src="img/figura-11.png" class="col-sm-12 mx-auto d-block col-md-6 float-left ">
+                        <img src="img/figura-11.png" class="col-sm-12 mx-auto d-block col-md-6 float-left">
                         <p>O que nos leva a ler? A leitura na forma como é vista atualmente constitui-se em um ato libertador e emancipatório. Lemos por diferentes motivos, entretanto, o que mais deve aguçar o interesse do leitor é o <strong>desejo de ler o que a ele interessa</strong>, de modo a gerar desejo no conhecimento obtido. “Ler é, pois, interrogar as palavras, duvidar delas, ampliá-las. Deste contato, desta troca, nasce o prazer de conhecer, de imaginar, de inventar a vida.” (YUNES, Eliana, 1995, p.188)</p>
                         <p>O(A) mediador(a), ao preparar práticas leitoras, deve reconhecer a priori os objetivos que deseja alcançar, assim como ao escolher possibilidades de leitura como livros, gêneros textuais, temáticas e material de apoio para ampliar o diálogo, tendo conhecimento prévio do público a que se destina e de suas competências leitoras.</p>
-                        <img src="img/figura-12.png" class="float-right" ">
+                        <img src="img/figura-12.png" class="float-right">
                         <p>Além disso, torna-se indispensável para a sua mediação:</p>
                         <p>
-                            <strong>a)</strong> Planejar a prática de leitura com antecedência, de modo bem detalhado: textos a serem lidos, ambiências, atividades etc.;<br>
-                            <strong>b)</strong> Escolher textos adequados à situação e ao nível de compreensão dos leitores;<br>
-                            <strong>c)</strong> Ler previamente os textos a serem trabalhados;<br>
-                            <strong>d)</strong> Organizar a ambiência onde se dará o encontro (biblioteca, sala de aula, residência, sala de estar, varanda, quintal, praça etc);<br>
-                            <strong>e)</strong> Expor livros e outros materiais de leitura de modo que possam gerar atração e curiosidade;<br>
-                            <strong>f)</strong> Estimular o grupo para gerar interação com as obras e a temática apresentada;<br>
-                            <strong>g)</strong> Conversar informalmente com os participantes sobre livros, leitura e assuntos diversos;<br>
-                            <strong>h)</strong> Elaborar atividades dinâmicas e criativas;<br>
-                            <strong>i)</strong> Utilizar o próprio livro para a leitura, de modo a gerar familiaridade;<br>
-                            <strong>j)</strong> Relacionar a leitura a outras possibilidades: música, teatro, dança etc.<br>
-                            <strong>l)</strong> Ler em voz alta e com boa entonação para que todos compreendam o que está sendo lido;<br>
+                            <strong>a)</strong> Planejar a prática de leitura com antecedência, de modo bem detalhado: textos a serem lidos, ambiências, atividades etc.;
+                            <br>
+                            <strong>b)</strong> Escolher textos adequados à situação e ao nível de compreensão dos leitores;
+                            <br>
+                            <strong>c)</strong> Ler previamente os textos a serem trabalhados;
+                            <br>
+                            <strong>d)</strong> Organizar a ambiência onde se dará o encontro (biblioteca, sala de aula, residência, sala de estar, varanda, quintal, praça etc);
+                            <br>
+                            <strong>e)</strong> Expor livros e outros materiais de leitura de modo que possam gerar atração e curiosidade;
+                            <br>
+                            <strong>f)</strong> Estimular o grupo para gerar interação com as obras e a temática apresentada;
+                            <br>
+                            <strong>g)</strong> Conversar informalmente com os participantes sobre livros, leitura e assuntos diversos;
+                            <br>
+                            <strong>h)</strong> Elaborar atividades dinâmicas e criativas;
+                            <br>
+                            <strong>i)</strong> Utilizar o próprio livro para a leitura, de modo a gerar familiaridade;
+                            <br>
+                            <strong>j)</strong> Relacionar a leitura a outras possibilidades: música, teatro, dança etc.
+                            <br>
+                            <strong>l)</strong> Ler em voz alta e com boa entonação para que todos compreendam o que está sendo lido;
+                            <br>
                             <strong>m)</strong> Dar autonomia aos leitores para partilharem suas histórias, leituras e narrativas, bem como exporem posicionamentos.</p>
                     </div>
                     <!-- Fim da aba 5 -->
@@ -226,12 +263,12 @@
                         <p>É ilustrador, chargista e cartunista (premiado internacionalmente) e xilogravurista. Formado em Artes Visuais pelo Instituto Federal de Educação, Ciências e Tecnologia do Ceará (IFCE). Escreve e possui livros ilustrados nas principais editoras do Ceará e em editoras paulistas.</p>
                     </div>
                     <!-- Fim da aba 8 -->
-                        <button class="btn btn-primary" id="prev_aba" onclick="scroll()">Anterior</button>
-                        <button class="btn btn-primary" id="next_aba" onclick="scroll()">Próximo</button>
-                    </div>
+                    <button class="btn btn-primary" id="prev_aba" onclick="scroll()">Anterior</button>
+                    <button class="btn btn-primary" id="next_aba" onclick="scroll()">Próximo</button>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
     <!-- JavaScript -->
     <!-- <script src="js/script.js"></script> -->
@@ -240,9 +277,22 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
 
-    <footer style="background-color: #222; color: #fff;" class="footer container-fluid py-5">
-        <div class="text-center text-secundary">© Gustavo Azevedo - All rights reserved to Gustavo</div>    
+    <footer style="background-color: #E9E9E9; color: #222;" class="footer container-fluid py-5">
+        <ul class="list-inline m-0">
+            <img class="mx-auto mb-4" src="img/fundacao.png">
+            <img class="mx-auto mb-4" src="img/uane.png">
+            <p class="list-inline-item col-sm-12 mx-auto col-md-2"><strong>Cursos de Extensão</strong>
+                <br>(85) 3255 6153/6155 - 0800 280 22 10
+                <br>tutoria@fdr.org.br</p>
+            <p class="list-inline-item col-sm-12 mx-auto col-md-2"><strong>Cursos Técnicos</strong>
+                <br>(85) 3255 6221/6005 - 0800 280 21 22
+                <br>cursostecnicos@fdr.org.br</p>
+            <p class="list-inline-item col-sm-12 mx-auto col-md-2"><strong>Cursos Livres</strong>
+                <br>(85) 3255 6153/6180 - 0800 280 22 10
+                <br>cursolivre@fdr.org.br</p>
+        </ul>
     </footer>
 
 </body>
+
 </html>
