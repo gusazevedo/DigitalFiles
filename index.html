@@ -1,6 +1,5 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -12,7 +11,6 @@
     <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
     <title>AVA</title>
 </head>
-
 <body>
     <!-- Menu mobile -->
     <nav class="navbar navabar-expand-lg navbar-light bg-light d-flex d-md-none">
@@ -49,26 +47,19 @@
     <img src="img/banner.png" class="img-fluid" alt="Responsive image">
 
     <!-- Separador de conteúdo -->
-    <section class="topo">
+    <section class="topo">  
 
-        <div class="p-3 separador">
-            <ul class="list-inline mb-0">
-                <li class="list-inline-item"><strong>MÓDULO 1 | Mediação da Leitura e Formação do Leitor</strong></li>
-                <li class="list-inline-item float-right d-none d-md-block">
+        <div class=" p-3 separador">
+            <ul class="list-inline mb-0 d-flex justify-content-between flex-wrap">
+                <p class="mb-0"><strong>MÓDULO 1 | Mediação da Leitura e Formação do Leitor</strong></p>
+                <div class="list-inline-item d-none d-md-block">
+                    Tamanho de fonte:
                     <button class="fonte-diminuir btn btn-sm" style="background-color:transparent;"><i title="Diminuir fonte" class="fas fa-minus"></i></button>
-                </li>
-                <li class=" list-inline-item float-right d-none d-md-block">
                     <button class="fonte-normal btn btn-sm" style="background-color:transparent;"><i title="Fonte Normal" class="fas fa-font"></i></button>
-                </li>
-                <li class="list-inline-item float-right d-none d-md-block">
-                    <p class="float-left"><strong>Controle das fontes:</strong></p>
                     <button class="fonte-aumentar btn btn-sm" style="background-color:transparent;"><i title="Aumentar fonte" class="fas fa-plus"></i></button>
-                </li>
-                <li class="list-inline-item float-right d-none d-md-block">
-                    <p class="float-left"><strong>Contraste:</strong></p>
+                    Contraste:
                     <button class="contraste btn btn-sm" style="background-color:transparent;"><i class="fas fa-adjust"></i></button>
-                </li>
-                <li class="list-inline-item float-right d-none d-md-block"></li>
+                </div>
             </ul>
         </div>
 
@@ -271,28 +262,41 @@
     </section>
 
     <!-- JavaScript -->
-    <!-- <script src="js/script.js"></script> -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
 
-    <footer style="background-color: #E9E9E9; color: #222;" class="footer container-fluid py-5">
-        <ul class="list-inline m-0">
-            <img class="mx-auto mb-4" src="img/fundacao.png">
-            <img class="mx-auto mb-4" src="img/uane.png">
-            <p class="list-inline-item col-sm-12 mx-auto col-md-2"><strong>Cursos de Extensão</strong>
-                <br>(85) 3255 6153/6155 - 0800 280 22 10
-                <br>tutoria@fdr.org.br</p>
-            <p class="list-inline-item col-sm-12 mx-auto col-md-2"><strong>Cursos Técnicos</strong>
-                <br>(85) 3255 6221/6005 - 0800 280 21 22
-                <br>cursostecnicos@fdr.org.br</p>
-            <p class="list-inline-item col-sm-12 mx-auto col-md-2"><strong>Cursos Livres</strong>
-                <br>(85) 3255 6153/6180 - 0800 280 22 10
-                <br>cursolivre@fdr.org.br</p>
-        </ul>
+    <footer class="footer container-fluid py-5">
+        <ul class="list-inline m-0  d-flex justify-content-between flex-wrap">
+           <li class="col-lg-auto col-12 text-lg-left text-center">
+               <img class="mx-auto mb-4" src="img/fundacao.png">
+           </li>
+           <li class="col-lg-auto col-12 text-lg-left text-center">
+               <img class="mx-auto mb-4" src="img/uane.png">
+           </li>
+           <li class="col-lg-auto col-12 text-lg-left text-center">
+               <p>
+                    <strong>Cursos de Extensão</strong>
+                    <br>(85) 3255 6153/6155 - 0800 280 22 10
+                    <br>tutoria@fdr.org.br
+               </p>
+           </li>
+           <li class="col-lg-auto col-12 text-lg-left text-center">
+               <p>
+                   <strong>Cursos Técnicos</strong>
+                   <br>(85) 3255 6221/6005 - 0800 280 21 22
+                   <br>cursostecnicos@fdr.org.br
+               </p>
+           </li>
+           <li class="col-lg-auto col-12 text-lg-left text-center">
+               <p>
+                   <strong>Cursos Livres</strong>
+                   <br>(85) 3255 6153/6180 - 0800 280 22 10
+                   <br>cursolivre@fdr.org.br
+               </p>
+           </li> 
+       </ul>
     </footer>
-
 </body>
-
 </html>
