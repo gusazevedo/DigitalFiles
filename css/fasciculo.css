@@ -14,6 +14,13 @@
 
 /* Elementos da página */
 
+.fonte-diminuir,
+.fonte-normal,
+.fonte-aumentar,
+.contraste {
+	background-color:transparent
+}
+
 .citacao-direita{
 	float: right;
 	margin: 10px 10px;
