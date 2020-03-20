@@ -1,11 +1,13 @@
 /* ABAS DE NAVEGACAO */
 
 var active_aba = '';
+var current_aba = '';
 var prev_aba = '';
 var next_aba = '';
 
 $('a[data-toggle="pill"]').on('show.bs.tab', function (e) {
     active_aba = e.target;
+    current_aba = $(active_aba).attr('href');
     prev_aba = $(active_aba).prev();
     next_aba = $(active_aba).next();
 
