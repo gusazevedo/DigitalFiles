@@ -3,8 +3,13 @@ responsiveVoice.setDefaultVoice("Brazilian Portuguese Female");
 $('.pausar').hide();
 $('.continuar').hide();
 
+// PLAY
+
 $('.falar').on('click', function(){
-	var paragrafos = $(current_aba + ' .paragrafo');
+	var paragrafos = $(current_aba + ' .ler');
+	if (active_aba != current_aba){
+		stop();
+	}
 	let texto = "";
 
 	for (let i = 0; i < paragrafos.length; i++){
@@ -35,7 +40,7 @@ $('.continuar').on('click', function(){
 
 // STOP
 
-$('.parar').on('click', function(){
+$('.parar').on('click', function stop(){
 	responsiveVoice.cancel();
 	console.clear()
 	$('.falar').show();
